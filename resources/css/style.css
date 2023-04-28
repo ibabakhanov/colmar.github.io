@@ -1,0 +1,452 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+} 
+ 
+ body {
+    font-family: Helvetica;
+      margin-left:auto;
+      margin-right:auto;
+      width:1500px;
+  
+
+ }
+
+ header {
+    position:fixed;
+    width: 100%;
+    height: 64px;
+    background-color: white;
+    top:0%;
+    z-index: 1;
+ }
+
+
+
+
+
+ header img {
+    float:left;
+    padding-left: 24px;
+    width: 64px;
+    height: 64px;
+    align-self: center;
+    
+ }
+
+.name {
+    float:left;
+    font-size:22px;
+    color:gray;
+    font-family: 'Montserrat';
+    
+}
+
+ strong {
+    color: #393e46;
+ }
+
+ ul {
+    top: 0%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    min-width: 1000px;
+    position: relative;
+    
+    
+    
+
+ }
+
+ li {
+    display: block;
+    float:right;
+  color: #393e46;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size:22px;
+  position: relative;
+  
+
+ }
+
+ .banner {
+    margin-top: 64px;;
+    background-color:lightgray;
+    z-index: 0;
+    width: 100%;
+    height: 730px;
+ }
+
+ .banner img {
+    width: 60%;
+    height:80%;
+    padding: 32px 28px;
+ }
+
+ .banner .start {
+    justify-self: center;
+    width:30%;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    color:#606470;
+    padding-right: 48px;
+    padding-top: 80px;
+    overflow-wrap:break-word;
+    
+   
+    
+   
+   
+ }
+
+ .start h1 {
+    font-size: 46px;
+    font-style: bold;
+    white-space: initial;
+   
+ }
+
+ .start button {
+    background-color: #606470;
+    border: none;
+    width:100%;
+    color: white;
+    padding-top:16px;
+    padding-bottom:16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin-top:24px;
+    
+    
+  }
+
+  .options {
+    background-color: white;
+    height: 850px;
+
+  }
+
+  .options .hurt {
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+   padding: 32px 24px ;
+    width: 55%;
+    float: left;
+    
+
+  }
+
+  .options .hurt h2 {
+   font-size: 40px;
+   font-style: bold;
+   white-space: initial;
+  }
+
+  .options .hurt p {
+   font-size: 18px;
+   width: 100%;
+   white-space: initial;
+  }
+
+  .options .hurt h6 {
+
+font-size: 15px;
+  }
+
+  .options .hurt img {
+    width:95%;
+    
+  }
+
+  .info {
+   float:right;
+   width: 550px;
+   border:1px gray;
+   
+  }
+
+  .orientation {
+   width: 100%;
+   height:200px;
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+   border: 1px, grey;
+   
+
+  }
+
+ 
+
+  
+  .orientation img {
+   width: 30%;
+   height: auto;
+   padding: 16px 16px;
+
+  }
+
+  .campus {
+   width: 100%;
+   height:200px;
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+   border: 1px, grey;
+  }
+
+  .campus h3 {
+   text-align:justify;
+   margin:0 auto;
+  }
+
+
+  .campus img {
+   width: 30%;
+   height: auto;
+   padding: 16px 16px;
+
+  }
+
+  .guest {
+   width: 100%;
+   height:200px;
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+   border: 1px, grey;
+  }
+
+  .guest h3 {
+    justify-self: center;
+   text-align:baseline;
+   margin:0 auto;
+   vertical-align: middle;
+  }
+
+
+  .guest img {
+   width: 30%;
+   height: auto;
+   padding: 16px 16px;
+  }
+
+  .orientation h3, .campus h3, .guest h3 {
+   justify-content: center;
+   top:50%;
+  }
+
+  .cources {
+   font-family: 'Open Sans', sans-serif;
+   background-color: lightgrey;
+   padding-bottom: 0%;
+  }
+
+  .cources h2 {
+   color:#606470 ;
+   text-align: center;
+   font-size: 48px;
+   padding-top: 32px;
+  }
+
+  .classes {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+  }
+
+  .software {
+   width:400px;
+   height: 400px;
+   color:#606470;
+   text-align: left;
+   padding-bottom: 24px;
+   background-color: white;
+   margin-bottom: 12px;
+  }
+
+  .computer {
+   width:400px;
+   height: 400px;
+   color:#606470;
+   text-align: left;
+   padding-bottom: 24px;
+   background-color: white;
+   margin-bottom: 12px;
+  }
+
+  .design {
+   width:400px;
+   height: 400px;
+   color:#606470;
+   text-align: left;
+   padding-bottom: 24px;
+   background-color: white;
+   margin-bottom: 12px;
+  }
+
+  .data {
+   border-top:8px #606470;
+   width:400px;
+   height: 400px;
+   color:#606470;
+   text-align: left;
+   padding-bottom: 24px;
+   background-color: white;
+   margin-bottom: 12px;
+  }
+
+  .business {
+   border-top:8px #606470;
+   width:400px;
+   height: 400px;
+   color:#606470;
+   text-align: left;
+   padding-bottom: 24px;
+   background-color: white;
+   margin-bottom: 12px;
+  }
+
+  .marketing {
+   border-top:8px #606470;
+   width:400px;
+   height: 400px;
+   color:#606470;
+   text-align: left;
+   padding-bottom: 24px;
+   background-color: white;
+   margin-bottom: 12px;
+  }
+
+  .classes img {
+   width:400px;
+  }
+
+  .classes h3 {
+   font-size:22px;
+   padding: 16px 16px 8px 16px;
+  }
+
+  .classes p {
+   padding: 8px 16px 8px 16px;
+  }
+
+  .exhibit {
+   font-family: 'Open Sans', sans-serif;
+   background-color: white;
+   border: 2px grey;
+   padding-top:0%;
+  }
+
+  .exhibit h2 {
+   color:#606470 ;
+   text-align: center;
+   font-size: 48px;
+   padding-top: 32px;
+   padding-bottom: 32px;
+   
+  }
+
+  .vid {
+   width: 55%;
+   padding: 0;
+   float: left;
+   margin-right: 60px;
+  }
+
+  .vid video {
+   padding: 0 24px;
+   height:auto;
+   width: 100%;
+   
+  }
+
+  .vid h3 {
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+   padding-top: 16px;
+   padding-bottom: 8px;
+   padding-left: 24px;
+   padding-right:24px;
+   width: 100%;
+   float: left;
+   font-size: 40px;
+   font-style: bold;
+   white-space: initial;
+  }
+
+  .vid p {
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+   padding: 8px 24px ;
+   width: 100%;
+   float: left;
+   font-size: 18px;
+   white-space: initial;
+  }
+
+
+  .examples {
+   float:right;
+   width: 40%;
+   
+   
+  }
+
+ .fisma {
+   display: inline-block;
+   width:100%;
+   text-align: justify;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   background-color:lightgrey;
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+  
+ }
+
+ .fisma img {
+   width: 200px;
+   height: auto;
+   padding: 16px 16px;
+ }
+
+ .now {
+   width: 100%;
+   display:inline-block;
+   text-align: justify;
+   padding-top: 24px;
+   padding-bottom: 24px;
+   margin-bottom: 200px;
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+   
+ }
+
+ .now img {
+   width: 200px;
+   height: auto;
+   padding: 16px 16px;
+ }
+
+ .footer h6 {
+   font-size: 12px;
+   text-align: center;
+   float: left;
+   padding: 24px 24px;
+   font-family: 'Open Sans', sans-serif;
+   color:#606470;
+   margin:0;
+ }
+
+ .end {
+   float:right;
+   text-align: center;
+ }
